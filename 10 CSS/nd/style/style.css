@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    text-align: center;
+}
+.container{
+	max-width: 900px;
+	margin: auto 50px ;
+}
+h2{
+	transition: .2s;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+h3{
+	margin-top: 20px;
+	font-family: 'Julee', cursive;
+	font-size: 24px;
+}
+.h-line{
+	width: 100px;
+	border-top: 2px solid red;
+	margin: 30px auto;
+}
+.wrapper{
+	position: relative;
+	width: 30%;
+	margin: 1%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	overflow: hidden;
+}
+.wrapper img{
+
+	width: 100%;
+}
+.wrapper span{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 10px 0;
+	display: block;
+	color: rgb(100,100,100);
+}
+.wrapper p{
+	color: rgb(150,150,150);
+	line-height: 20px;
+	font-size: 16px;
+}
+.border-bottom{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid rgb(150,150,150);
+}
+.wrapper i, .wrapper .text-inline{
+	display: inline-block;
+	margin-right: 10px;
+}
+.wrapper .date{
+	padding: 15px;
+	background-color: #01DFD7;
+	font-size: 20px;
+	position: absolute;
+	top:10%;
+	color: white;
+	font-weight: 600;
+	left: -50px;
+	transition: 1s;
+	z-index: 15;
+}
+.wrapper .date-main{
+	padding: 15px;
+	background-color: rgba(255,0,0, 0.5);
+	font-size: 20px;
+	position: absolute;
+	top:40%;
+	color: white;
+	font-weight: 600;
+	z-index: 20;
+}
+.box{
+	position: relative;
+}
+h2:hover{
+	transform: scale(1.2);
+	color: red;
+	transition: .2s;
+}
+.wrapper:hover .date{
+	left: 0;
+	transition: 1s;
+}
+
+
+
+
+/**/

@@ -1,0 +1,279 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.clearfix:after {
+    content: " ";
+    /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.insearch {
+    position: relative;
+    float: right;
+}
+
+.insearch input {
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+}
+
+.fa-search {
+    position: absolute;
+    font-size: 12px;
+    left: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.insearch input::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+
+.landing-page .container nav {
+    float: left;
+}
+
+.landing-page .container nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.landing-page .container nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.landing-page .container nav a.active {
+    color: white;
+    font-weight: 600;
+    border-top: 3px solid transparent;
+    box-sizing: border-box;
+}
+
+.landing-page .container nav a:hover {
+    border-top: 3px solid #54d154;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    padding: 10px 20px;
+   
+
+}
+
+.landing-page .container * {
+    display: inline-block;
+}
+
+.landing-page .container h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    position: absolute;
+    top: 10px left: 50%;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 24px;
+}
+
+.landing-page main.land {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.landing-page main.land h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.landing-page main.land a {
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #54d154;
+    font-size: 22px;
+    padding: 7px 15px;
+}
+
+.landing-page footer.land {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 50px;
+    padding: 5px 12px;
+}
+
+.landing-page footer.land a {
+    color: rgba(0, 0, 0, .7);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.landing-page footer.land i {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.fa-bars {
+    z-index: 20;
+    color: transparent;
+    transition: 0.3s;
+    animation-duration: 1s;
+}
+.fa-bars:hover{
+    z-index: 20;
+    transition: 0.3s;
+    animation-duration: 1s;
+}

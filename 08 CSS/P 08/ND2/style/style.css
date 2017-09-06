@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: table;
+  clear: both;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    text-align: center;
+}
+.container{
+	width: 80%;
+
+
+margin: auto;
+margin-bottom: 50px;
+}
+
+.header{
+	display: block;
+
+
+
+}
+.hline{
+	border-bottom: 2px solid lightgrey;
+	margin-bottom: 10px;
+}
+.header img{
+	margin: 40px;
+	float: left;
+	width: 100px;
+
+}
+.navigation{
+
+	float:right;
+	display: inline-block;
+
+}
+.navigation li, ul{
+
+	display: inline-block;
+	margin: 20px 10px;
+	font-size: 20px;
+	font-weight: 500;
+
+}
+.wrapper{
+	transition: 1s;
+	box-shadow: -5px 5px 20px lightgrey;
+	text-align: left;
+	width: 25%;
+	border: 2px solid lightgrey;
+	padding: 20px;
+	display: inline-block;
+	margin: 20px;
+
+}
+.wrapper i{
+
+	padding: 10px;
+	margin: auto;
+	color: green;
+	width: 400px;
+	display:block;
+}
+.wrapper i p{
+	display: inline-block;
+	width: 180px;
+	color: black;
+}
+
+.wrapper h2{
+	margin-bottom:20px;
+
+
+	color:green;
+	font-size: 28px;
+
+
+}
+.box{
+	border-bottom: 1px solid lightgrey;
+	border-top:1px solid lightgrey;
+	padding: 20px;
+
+
+}
+.menuo{
+	width: 45%;
+	font-size: 20px;
+	color:lightgrey;
+	margin-left: 15%;
+
+}
+.kaina{
+	width: 45%;
+	font-size: 100px;
+	display: inline-block;
+	vertical-align: top;
+	text-align:center;
+}
+.kaina::before{
+	content: '$';
+	font-size: 50px;
+	vertical-align: top;
+}
+.aprasymas{
+	padding: 10px;
+	display: inline-block;
+	width: 45%;
+
+}
+
+.wrapper button{
+
+	margin: 10%;
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.green{
+	font-size: 30px;
+	color: green;
+	text-transform: capitalize;
+
+}
+h1{
+		font-size: 50px;
+		margin: 20px;
+}
+.grey{
+	font-size: 20px;
+	color: lightgrey;
+}
+
+.wrapper:hover {
+
+	transform: scale(1.2);
+	background-color: lightgreen;
+
+
+}
+.wrapper:hover *{
+color:white;
+
+}
+.wrapper:hover button{
+	background-color: white;
+	color:black;
+}
+.navigation li:hover{
+
+	border-bottom: 4px solid green;
+
+}

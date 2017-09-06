@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+/*p{*/
+    /*width: 30%;*/
+    /*display: inline-block;*/
+/*}*/
+h1{
+    width: 30%;
+    display: inline-block;
+}
+.box{
+    height: 200px;
+    width: 20%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.wrapper {
+    background-color: #333333;
+}
+.box img{
+    width: 60px;
+}
+.box p{
+    color: white;
+}
+.box h3{
+    color: white;
+    text-transform: uppercase;
+}

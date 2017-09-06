@@ -1,0 +1,31 @@
+
+@media(max-width: 1186px) {
+
+    .box{
+        display: block;
+        width: 80%;
+        margin:10px auto;
+    }
+
+
+}
+@media(max-width: 600px) {
+
+    body{
+        background-color: blue;
+
+    }
+    h1{
+        font-size: 40px;
+        color:white;
+    }
+
+}
+@media(max-width: 450px) {
+
+    .box{
+        height: 50%;
+        display: block;
+        width: 80%;
+        margin:10px auto;
+    }

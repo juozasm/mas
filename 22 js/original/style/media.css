@@ -1,0 +1,577 @@
+@media(max-width: 1280px) {             /****** 1280px ******/ 
+    
+    /***** LANDING PAGE *****/
+    
+    .landing-page .header-text h3 {
+        letter-spacing: 1rem;
+    }
+    
+    /***** GALLERY *****/
+    
+    .gallery p {
+        margin: 1.25rem 0;
+        font-size: 0.75rem;
+    }
+    .one {
+        padding-right: 1rem;
+    }
+    .two {
+        padding-left: 1rem;
+    }
+    
+}
+@media(max-width: 1120px) {             /****** 1120px ******/ 
+    
+    /***** GALLERY *****/
+    
+    .half-container {
+        max-width: 450px;
+    }
+    
+    /***** CONTACT *****/
+    
+    .contact form {
+        padding: 10.5rem 1% 6.25rem 1%;
+    }
+    
+    
+}
+@media(max-width: 1020px) {             /****** 1020px ******/ 
+    
+    /***** LANDING PAGE *****/
+    
+    .logo {
+        margin: 1.25rem 0.635rem;
+    }
+    .landing-page nav ul li {
+        margin: 2.813rem 0 0 0.965rem;
+    }
+    .landing-page .header-text h1 {
+        font-size: 8rem;
+    }
+    .landing-page .header-text h3 {
+        font-size: 1.25rem;
+    }
+    
+    /***** GALLERY *****/
+    
+    .half-container {
+        max-width: 400px;
+    }
+}
+@media(max-width: 960px) {             /****** 960px ******/ 
+    /***** GALLERY *****/
+    
+    .half-container {
+        max-width: 350px;
+        margin-top: 0.75rem;
+    }
+    
+    /***** BLOG *****/
+    
+    .blog ul li p {
+        font-size: 0.7375rem;
+    }
+    
+    /***** QUICK ACTION *****/
+    
+    .quick-text p {
+        font-size: 0.625rem;
+    }
+    
+    /***** KEY FEATURE *****/
+    
+    .key-content h2 {
+        margin: 4rem 0 2.5rem 1.25rem;
+    }
+    
+}
+@media(max-width: 910px) {             /****** 910px ******/ 
+    
+    /***** LANDING PAGE *****/
+    
+    .landing-page nav ul li {
+        margin: 2.813rem 0 0 0.365rem;
+    }
+    .landing-page .header-text h1 {
+        font-size: 7rem;
+    }
+    .landing-page .header-text h3 {
+        font-size: 1rem;
+        letter-spacing: 0.625rem;
+    }
+    
+    /***** ABOUT *****/
+    
+    .about ul li i {
+        width: 7.125rem;
+        line-height: 7.125rem;
+        font-size: 2rem;
+    }
+    .about ul li p {
+        font-size: 0.7375rem;
+    }
+    
+    /***** GALLERY *****/
+    
+    .half-container {
+        max-width: 320px;
+        margin-top: 0.1rem;
+    }
+    
+    /***** KEY FEATURE *****/
+    
+    .key-content h2 {
+        margin: 3rem 0 2.5rem 1.25rem;
+    }
+    
+    /***** TEAM *****/
+    
+    .team-content-text h2 {
+        font-size: 1rem;
+    }
+    .team-content-text h5 {
+        font-size: 0.7375rem;
+    }
+    
+}
+@media(max-width: 795px) {         /****** 795px ******/ 
+    
+     /***** LANDING PAGE *****/
+    
+    .landing-page .header-text h1 {
+        font-size: 6rem;
+    }
+    .landing-page .header-text h3 {
+        font-size: 0.8rem;
+        letter-spacing: 0.525rem;
+    }
+    .landing-page a {
+        font-size: 0.925rem;
+    }
+    
+    /***** ABOUT *****/
+    
+    .about ul li i {
+        width: 6.125rem;
+        line-height: 6.125rem;
+        font-size: 1.8rem;
+    }
+    .about ul li h2 {
+        font-size: 0.9rem;
+    }
+    .about ul {
+        margin: 7.875rem 1.5% 4.85rem 1.5%;
+    }
+    
+    /***** GALLERY *****/
+    
+    .half-container {
+        max-width: 350px;
+        margin-top: 0.1rem;
+    }
+    .gallery span {
+        font-size: 0.6125rem;
+    }
+    .gallery h2 {
+        font-size: 1.263rem;
+    }
+    .gallery p {
+        font-size: 0.7375rem;
+    }
+    
+    /***** BLOG *****/
+    
+    .blog ul {
+        width: 20%;
+        margin: 12.5rem 2% 3.125rem 2%;
+    }
+    
+    /***** KEY FEATURE *****/
+    
+    .key-content h2 {
+        margin: 2rem 0 2rem 1.25rem;
+    }
+}
+@media(max-width: 760px) {             /****** 760px ******/ 
+    
+    /***** ABOUT *****/
+
+    .about ul {
+        width: 40%;
+        margin: 2.375rem 2% 2.25rem 2%;
+    }
+    .about ul:nth-of-type(1) {
+        margin-top: 9.375rem;
+    }
+    .about ul:nth-of-type(2) {
+        margin-top: 9.375rem;
+    }
+    
+    /***** GALLERY *****/
+    
+    .half-container {
+        max-width: 300px;
+        margin-top: 0.1rem;
+    }
+    .gallery span {
+        font-size: 0.4125rem;
+    }
+    .gallery h2 {
+        font-size: 0.963rem;
+    }
+    .gallery p {
+        font-size: 0.5375rem;
+    }
+    
+    /***** BLOG *****/
+    
+    .blog ul {
+        width: 41.5%;
+        margin: 2rem 2% 3rem 2%;
+    }
+    .blog ul:nth-of-type(1) {
+        margin-top: 12rem;
+    }
+    .blog ul:nth-of-type(2) {
+        margin-top: 12rem;
+    }
+    
+    /***** QUICK ACTION *****/
+    
+    .quick-text {
+        margin: 0 auto;
+        display: list-item;
+        width: 70%;
+    }
+    .quick-text p {
+        padding: 2.25rem 0 2.25rem 5rem;
+    }
+    
+    /***** KEY FEATURE *****/
+    
+    .key-content h2 {
+        margin: 1rem 0 1rem 1.25rem;
+    }
+    .key-content p {
+        padding: 0.625rem 2.5rem 0.625rem 1.25rem;
+        margin: 0 0 1.5rem 0;
+    }
+    .key-content li {
+        font-size: 0.625rem;
+    }
+    
+    /***** TEAM *****/
+    
+    .team-content {
+        width: 40%;
+       margin: 0 2% 4.125rem 2%;
+    }
+    .team-content:nth-of-type(1) {
+        margin-top: 12.5rem;
+    }
+    .team-content:nth-of-type(2) {
+        margin-top: 12.5rem;
+    }
+    
+    
+}
+@media(max-width: 650px) {             /****** 650px ******/        
+    
+    /***** LANDING PAGE *****/
+    
+    .landing-page .header-text h1 {
+        font-size: 5rem;
+    }
+    .landing-page .header-text h3 {
+        font-size: 0.8rem;
+        letter-spacing: 0.425rem;
+    }
+    .landing-page a {
+        font-size: 0.725rem;
+    }
+    .landing-page nav .menu {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+        position: absolute;
+        top: 2.813rem;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 1.25rem;
+        cursor: pointer;
+    }
+    .landing-page nav ul li {
+        margin: 2.813rem 0 0 1.225rem;
+        padding-right: 0.5rem;
+    }
+    
+    /***** ABOUT *****/
+    
+    .about ul li i {
+        width: 5.125rem;
+        line-height: 5.125rem;
+        font-size: 1.4rem;
+    }
+    .about ul li h2 {
+        font-size: 0.8rem;
+    }
+    
+    /***** BLOG *****/
+    
+    .blog .text h4 {
+        font-size: 1rem;
+    }
+    .blog ul li h2 {
+        font-size: 0.825rem;
+        margin: 2.125rem 0 1.475rem 0;
+    }
+    .blog ul li p {
+        font-size: 0.6375rem;
+    }
+    
+    /***** KEY FEATURE *****/
+    
+    .key-content p {
+        padding: 0.325rem 1.5rem 0.325rem 1.25rem;
+        margin: 0 0 0.5rem 0;
+        font-size: 0.625rem;
+    }
+    
+    /***** TEAM *****/
+    
+    .team .text h4 {
+        font-size: 1rem;
+    }
+    
+    /***** CONTACT *****/
+    
+    .contact .text h3 {
+        font-size: 1.25rem;
+    }
+    .contact form input {
+        display: list-item;
+        width: 60%;
+        margin: 0.925rem auto;
+    }
+    .contact form input:nth-of-type(2) {
+        margin: 0.925rem auto;
+    }
+    .contact form textarea {
+        width: 70%;
+    }
+    .submit {
+        width: 25%!important;
+    }
+    
+}
+@media(max-width: 620px) {             /****** 620px ******/ 
+    
+    /***** GALLERY *****/
+    
+    .bottom-row img, .bottom-row .half-container, .top-row img, .top-row .half-container {
+        display: list-item;
+    }
+    .half-container {
+        max-width: 70%;
+        margin: 0.25rem auto;
+    }
+    .gallery img {
+        width: 100%;
+        display: block;
+        margin: auto;
+        
+    }
+    .top-row img, .top-row .half-container {
+        float: none;
+    }
+    .bottom-row img, .bottom-row .half-container {
+        float: none;
+    }
+    
+    /***** QUICK ACTION *****/
+    
+    .quick-text {
+        margin: 3rem auto;
+        display: list-item;
+        width: 80%;
+    }
+    
+    /***** FOOTER *****/
+    
+    .info p {
+        float: none;
+        margin: 1rem auto;
+        display: list-item;
+    }
+    .info img {
+        float: none;
+        display: list-item;
+        margin: 1rem auto;
+        width: 30%;
+    }
+    
+}
+@media(max-width: 515px) {             /****** 515px ******/ 
+    
+    /***** LANDING PAGE *****/
+    
+    .landing-page .header-text h1 {
+        font-size: 4rem;
+    }
+    .landing-page .header-text h3 {
+        font-size: 0.6rem;
+        letter-spacing: 0.425rem;
+    }
+    .landing-page nav ul li {
+        margin: 2.813rem 0 0 1rem;
+        padding-right: 0.5rem;
+    }
+    
+    /***** ABOUT *****/
+    
+    .about ul {
+        display: list-item;
+        width: 70%;
+        margin: 1.25rem auto;
+    }
+    .about ul:nth-of-type(2) {
+        margin-top: 1.25rem;
+    }
+    .about ul:nth-of-type(4) {
+        padding-bottom: 2.25rem;
+    }
+    
+    /***** GALLERY *****/
+    
+    .gallery {
+        margin-top: -1.2rem;
+    }
+    .half-container {
+        max-width: 80%;
+        margin: 0.25rem auto;
+    }
+    
+    /***** BLOG *****/
+    
+    .blog ul {
+        display: list-item;
+        width: 80%;
+        margin: 2rem auto;
+    }
+    .blog ul:nth-of-type(2) {
+        margin-top: 2rem;
+    }
+    
+    /***** QUICK ACTION *****/
+    
+    .quick-text {
+        margin: 3rem auto;
+        display: list-item;
+        width: 90%;
+    }
+    
+    /***** KEY FEATURE *****/
+    
+    .key-feature {
+        margin-top: -3rem;
+    }
+    .key-content {
+        display: list-item;
+        width: 70%;
+        text-align: left;
+        margin: 1rem auto;
+    }
+    .key-content img {
+        width: 40%;
+    }
+    .key-feature {
+        padding: 1.125rem 0;
+    }
+    
+    /***** CONTACT *****/
+    
+    .contact .text h3 {
+        font-size: 1rem;
+    }
+    .contact form input {
+        width: 70%;
+    }
+    .contact form textarea {
+        width: 80%;
+    }
+    
+    /***** FOOTER *****/
+    
+    .info img {
+        width: 40%;
+    }
+}
+@media(max-width: 450px) {                 /****** 450px ******/ 
+    
+    /***** LANDING PAGE *****/
+    
+    .landing-page .header-text h1 {
+        font-size: 3rem;
+    }
+    .landing-page .header-text h3 {
+        font-size: 0.65rem;
+        letter-spacing: 0.1rem;
+    }
+    .landing-page nav ul li {
+        margin: 2.813rem 0 0 0.6rem;
+        padding-right: 0.5rem;
+    }
+    
+    /***** GALLERY *****/
+    
+    .half-container {
+        max-width: 90%;
+        margin: 0.25rem auto;
+    }
+     
+    /***** KEY FEATURE *****/
+    
+    .key-content {
+        display: list-item;
+        width: 80%;
+        text-align: left;
+        margin: 1rem auto;
+    }
+    .key-content img {
+        width: 50%;
+    }
+    
+     /***** CONTACT *****/
+    
+    .contact .text h3 {
+        font-size: 0.825rem;
+    }
+    .contact form input {
+        width: 80%;
+    }
+    .contact form textarea {
+        width: 90%;
+    }
+    .submit {
+        width: 35%!important;
+    }
+    
+    /***** FOOTER *****/
+    
+    .info img {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

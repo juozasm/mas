@@ -1,0 +1,66 @@
+body{
+    background-color: lightgrey;
+}    
+.container{
+    margin: auto;
+    width: 90%;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 15px;
+    
+}
+input{
+    height: 30px;
+    font-size: 24px;
+    width: 22%;
+}
+button{
+    height: 30px;
+    font-size: 24px;
+    width: 22%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.race{
+    background-color: red;
+}
+.add{
+    background-color: green;
+}
+button:focus{
+    outline:none!imporatant;
+    
+}
+input::placeholder{
+    font-size: 18px;
+}
+.list{
+    display:inline-block;
+    width: 25%;
+    border: 1px solid grey;
+    vertical-align:top;
+    height:300px;
+    
+    
+}
+.track{
+    display: inline-block;
+    width: 70%;
+    border: 1px solid grey;
+    vertical-align:top;
+    height:300px;
+}
+li{font-size: 20px;
+    border: 1px solid red;
+    color: red;
+    font-weight: 600;
+    list-style: none;
+}
+.car{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 10%;
+    transition: 2s;
+}

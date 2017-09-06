@@ -1,0 +1,82 @@
+body{
+    background-color: lightgray;
+}
+
+.container{
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+input{
+    height: 30px;
+    font-size: 24px;
+    width: 22%;
+}
+button{
+    height: 30px;
+    font-size: 16px;
+    width: 22%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.race{
+    background-color: #B40404;
+}
+.add{
+    background-color: green;
+}
+button:focus{
+    outline: none!important;
+}
+input::placeholder{
+    font-size: 18px;
+}
+.list{
+    display: inline-block;
+    width: 25%;
+    border:1px solid grey;
+    height:300px;
+    vertical-align:top;
+}
+.track{
+    display: inline-block;
+    width: 70%;
+    border:1px solid grey;
+    height:300px;
+    vertical-align:top;
+}
+li{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.car{
+    margin: 15px 0;
+    display: block;
+    width: 100px;
+}
+
+.winner{
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255,255,255, 1);
+    box-shadow: 0 0 10px black;
+    position: fixed;
+    left: 40%;
+    top: 10%;
+    text-align: center;
+}
+.winner img{
+    margin: auto;
+    width: 90%;
+}
+.winner button{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: black;
+}

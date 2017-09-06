@@ -1,0 +1,28 @@
+img{
+    width: 40%;
+    border: 10px solid darkslateblue;
+    border-radius: 100%;
+}
+.navbar{
+    background-color: darkslateblue;
+}
+body{
+    color:white;
+}
+.container-fluid{
+/*    background-color: #9ebcd8;*/
+}
+i{
+    color:darkslateblue;
+    margin: 5px;
+    border: 10px solid darkslateblue;
+    border-radius: 100%;
+        
+    
+}
+i.fa-arrow-right{
+    font-size: 60px;
+}
+i.fa-arrow-left{
+    font-size: 60px;
+}

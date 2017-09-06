@@ -1,0 +1,116 @@
+/*
+@media(max-width: 1186px) {
+
+    .box{
+        display: block;
+        width: 80%;
+        margin:10px auto;
+    }
+
+
+}
+@media(max-width: 600px) {
+
+    body{
+        background-color: blue;
+
+    }
+    h1{
+        font-size: 40px;
+        color:white;
+    }
+
+}
+@media(max-width: 450px) {
+
+    .box{
+        height: 50%;
+        display: block;
+        width: 80%;
+        margin:10px auto;
+    }*/
+
+    @media(max-width: 850px) {
+
+ .wrapper{
+     width: 40%;
+     height: auto;
+     display: block;
+     margin:10px auto;
+
+ }
+ container{
+     margin:10px 0px;
+ }
+
+}
+@media(max-width: 750px) {
+
+.wrapper{
+ width: 50%;
+ height: auto;
+ display: block;
+ margin:10px auto;
+
+}
+container{
+    margin:10px 0px;
+}
+
+}
+@media(max-width: 650px) {
+
+.wrapper{
+ width: 60%;
+ height: auto;
+ display: block;
+ margin:10px auto;
+
+}
+container{
+    margin:10px 0px;
+}
+}
+@media(max-width: 550px) {
+
+.wrapper{
+ width: 70%;
+ height: auto;
+ display: block;
+ margin:10px auto;
+
+}
+container{
+    margin:10px 0px;
+}
+
+}
+@media(max-width: 450px) {
+
+.wrapper{
+ width: 80%;
+ height: auto;
+ display: block;
+ margin:10px auto;
+
+}
+container{
+    margin:10px 0px;
+}
+
+}
+@media(max-width: 350px) {
+
+.wrapper{
+ width: 90%;
+ height: auto;
+ display: block;
+ margin:10px auto;
+
+}
+.container{
+    margin:10px 0px;
+}
+
+
+}

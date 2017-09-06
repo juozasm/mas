@@ -1,0 +1,52 @@
+body{
+    background-color: darkgrey;
+    margin: auto;
+}
+.container {
+    
+    text-align: center;
+}
+h2{
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+input,button{
+   
+    padding: 5px;
+    margin: auto;
+     margin-top: 10px;
+    display: block;
+}
+
+button{
+
+    background-color: darkgrey; 
+    border: 2px solid black;
+    
+}
+button:hover{
+    transition: 1s;
+    background-color: lawngreen;
+}
+.klass{
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 40%;
+    
+}
+.sveciai li{
+    list-style: none;
+    padding: 5px;
+    color: red;
+    border-radius: 10%;
+    border: 2px solid  red;
+    font-weight: 600;
+    font-size: 20px;
+    
+}

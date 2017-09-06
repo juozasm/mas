@@ -1,0 +1,77 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1s; }
+
+.game-board {
+  background-image: url("img/chalkboard.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
+
+.game {
+  display: inline-block;
+  width: 400px; }
+  .game img {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+  .game .round {
+    margin: auto;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: white;
+    width: 80px;
+    text-align: center; }
+  .game p {
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 120px;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer; }
+
+.player {
+  display: inline-block;
+  vertical-align: top; }
+  .player h1 {
+    font-size: 100px;
+    width: 100px;
+    color: orange; }
+  .player h2 {
+    color: white;
+    font-size: 20px; }
+  .player h3 {
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    line-height: 50px;
+    padding: 0 10px;
+    margin-bottom: 10px; }
+
+.active {
+  color: orange !important;
+  transform: scale(1.5);
+  transition: .9s; 
+}
+
+

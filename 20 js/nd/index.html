@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Konverteris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Ka Kovertuosime?</h2>
+        <select id="selectid" name="form_select" onchange="showDiv(this)">
+  <option id="active" value="cur">Valiuta</option>
+  <option value="temp">Temperatura</option>
+</select>
+        <div id="cur">
+            <input  id="one" type="number">    
+           <select id="val1">
+            <option value="eur">Euras</option>
+            <option value="dol">Doleris</option>
+            </select>
+            <input id="two"  type="number">
+            <select id="val2">
+            <option value="eur">Euras</option>
+            <option value="dol">Doleris</option>
+            </select>
+            
+        </div>
+        <div id="temp">
+            <input id="three"  type="number">
+           <select id="val3">
+     
+            <option value="F">Farenheit</option>
+            <option value="C">Celsius</option>
+            </select>
+             <input id="four"  type="number">
+            <select id="val4">
+            
+            <option value="F">Farenheit</option>
+            <option value="C">Celsius</option>
+            </select>
+        </div>
+    </div>
+    <button>Konvertuoti</button>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

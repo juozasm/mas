@@ -1,0 +1,41 @@
+
+    @media(max-width: 890px) {
+
+ h2{
+
+    font-size: 40px;
+    }
+
+.wrapper
+{
+width: 80%;
+display: block;
+margin: auto;
+
+}
+.wrapper .date-main{
+
+
+        top:60%;
+}
+ }
+@media(max-width: 600px) {
+        .wrapper .date-main{
+            top:50%;
+        }
+    }
+        @media(max-width: 450px) {
+                .wrapper .date-main{
+                    top:40%;
+                }
+            }
+            @media(max-width: 400px) {
+                    .wrapper .date-main{
+                        top:30%;
+                    }
+                }
+                @media(max-width: 350px) {
+                        .wrapper .date-main{
+                            top:20%;
+                        }
+                    }

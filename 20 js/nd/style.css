@@ -1,0 +1,11 @@
+
+body{
+    background-color: mediumslateblue;
+}    
+#cur{
+    display: block;
+}
+#temp{
+    
+    display: none;
+}

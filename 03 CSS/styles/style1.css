@@ -1,0 +1,51 @@
+h3{
+    color: green;
+}
+p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.first{
+    font-style: italic;
+}
+span{
+    font-weight: 600;
+}
+.first span{
+    color: red;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.second{
+    border: 1px solid dimgrey;
+    border-radius: 10px;
+}
+button{
+    height: 40px;
+    width: 160px;
+    margin-left: 50px;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+    color: black;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 26px;
+    margin: 100px 0 100px 200px;
+    padding: 20px;
+    box-shadow:  8px 8px 10px black; /* inset ideda sesli i vidu*/
+}
+
+/* SECTION A */
+
+
+

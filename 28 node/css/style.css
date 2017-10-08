@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: green; }
+
+.container {
+  width: 90%;
+  background-color: red; }
+  .container .wrapper {
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top; }
+    .container .wrapper h2 {
+      font-size: 80px;
+      color: green; }
+    .container .wrapper h3 {
+      font-size: 60px;
+      color: red; }
+    .container .wrapper h4 {
+      font-size: 40px;
+      color: crimson; }

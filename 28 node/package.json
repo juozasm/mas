@@ -1,0 +1,22 @@
+{
+  "name": "paskaita",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-less": "^3.3.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "description": ""
+}

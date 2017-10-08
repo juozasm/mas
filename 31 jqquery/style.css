@@ -1,0 +1,53 @@
+.wrapper{
+    width: 50%;
+}
+.box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+.menu{
+    width: 50%;
+    background-color: rebeccapurple;
+    
+}
+.menu h2{
+    padding: 10px;
+    color: white;
+    float:left;
+    font-size: 24px;
+}
+.min-menu{
+    padding: 10px;
+    float:right;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear:both;
+    
+}
+li{
+    text-align: center;
+    color:white;
+    font-size:20px;
+}
+.gallery{
+    padding: 50px;
+    width: 50%;
+}
+.small{
+    width: 30%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.big{
+    width: 100%;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+body{
+    font-family: monospace;
+}
+h3{
+    margin: 50px auto;
+    font-size: 30px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    background-color: #BADA55;
+    margin-bottom: 50px;
+}
+input{
+    margin: 10px;
+}

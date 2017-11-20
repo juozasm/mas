@@ -1,0 +1,127 @@
+
+Prideti i users lentele irasus
+
+INSERT INTO `users` (`id`, `name`, `surname`, `username`, `email`, `password`) 
+VALUES (NULL, 'Visvaldas', 'Matijosaitis', 'Visva', 'vm@kaunas.lt', MD5('pass'));
+
+SELECT 
+	*
+FROM 
+	users
+WHERE
+	name='Jonas' or surname='Jonaitis'
+
+
+SELECT 
+	*
+ FROM 
+	users
+WHERE
+	name LIKE 'J%'   // viskas kas prasideda J raide
+
+SELECT 
+	* 
+FROM 
+	users
+WHERE
+	id BETWEEN '1' AND '3' // tarp situ
+
+SELECT 
+	MAX(id)
+FROM 
+	users maximalus id
+
+SELECT count(id) FROM users / kiek useriu
+
+SELECT email FROM users WHERE name LIKE '%o%' AND surname LIKE '%n%' kur  yr avarde o ir kur pavardej n.
+
+
+INSERT INTO
+	users
+		()
+    VALUES
+		() 
+
+ideti irasa
+INSERT INTO
+	users
+		(name, surname, username, email, password, Age)
+    VALUES
+		('Juozas','Masiliunas','Juozux','juozas@gmail.com', MD5('juozas'),'45')
+        
+
+naujas atyginimas columas, 50 irasu
+
+DROP PROCEDURE generate_data;
+
+DELIMITER $$
+CREATE PROCEDURE generate_data()
+BEGIN
+  DECLARE i INT DEFAULT 0;
+  WHILE i < 30 DO
+    INSERT INTO users (name, surname, username, email, password, Age, wage) VALUES (
+      CONCAT('vardas',FLOOR(RAND()*100)),CONCAT('pavarde',FLOOR(RAND()*100)),CONCAT('user',ROUND(RAND()*100,2)),CONCAT(ROUND(RAND()*100,4),'@gmail.com'),MD5(FLOOR(RAND()*100)),ROUND(RAND()*100,2),ROUND(RAND()*10000,2)
+    );
+    SET i = i + 1;
+  END WHILE;
+END$$
+DELIMITER ;
+
+CALL generate_data();
+
+
+http://www.tech-recipes.com/rx/378/add-a-column-to-an-existing-mysql-table/
+
+prideti columna
+
+ALTER TABLE contacts ADD email VARCHAR(60);
+ALTER TABLE contacts ADD email VARCHAR(60) AFTER name;
+ALTER TABLE contacts ADD email VARCHAR(60) FIRST;
+________________________________________________________
+
+UPDATE
+	users 
+SET 
+	name= 'Antanina'
+WHERE
+	id ='1'  
+pakeist kazkoki value lentele
+_____________________________________________________
+
+SELECT AVG(wage), SUM(wage)
+FROM users
+WHERE age < 30
+
+
+DELETE FROM
+	users
+WHERE 
+	id = 7
+ deletinti
+
+SELECT
+	name, COUNT(name)
+FROM
+	users
+GROUP BY
+	name  // sugrupuoti duomenis pagal varda ir countint'i kiek ju yra
+
+SELECT
+	name, COUNT(name), AVG(wage) as atlyginimai
+FROM
+	users
+GROUP BY
+	name
+ORDER BY
+	atlyginimai DESC  
+
+SELECT
+	name, COUNT(name), AVG(wage) as atlyginimai, SUM(wage) as sumaAtlyg 
+FROM
+	users
+GROUP BY
+	name
+ORDER BY
+	sumaAtlyg DESC
+ //rusiuoti grupuoti
+

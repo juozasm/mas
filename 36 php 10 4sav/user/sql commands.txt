@@ -1,0 +1,35 @@
+SELECT
+
+users.name, pages.pages, user_liked_pages.*
+
+FROM
+ 
+users
+
+LEFT
+ JOIN
+
+user_liked_pages
+	
+ON
+	user_liked_pages.user_id = users.id
+
+LEFT JOIN
+	pages
+	
+ON	
+		user_liked_pages.page_id=pages.id
+
+
+gauti page su pageid
+
+SELECT
+	pages,page_id
+FROM
+    pages
+INNER JOIN
+	user_liked_pages
+    ON
+    user_liked_pages.page_id=pages.id
+WHERE 
+user_id = '2';

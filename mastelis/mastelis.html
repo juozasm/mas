@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mestelio skaiciuokle</title>
+</head>
+<body>
+
+ <div style="padding:50px; text-align:center" class="container">
+     <b>1 prie</b> <input class="mastelis" type="number">
+
+     <button onclick="skaiciuoti()">Skaiciuoti</button>
+
+     <p>milimetrais</p><span class="mm"></span>
+     <p>centimetrias</p><span class="cm"></span>
+ </div>
+
+
+    <script type="application/javascript">
+            function skaiciuoti() {
+                mastelis=document.getElementsByClassName("mastelis")[0];
+                x=mastelis.value;
+
+                mm=document.getElementsByClassName("mm")[0];  // Find the element
+                mm.innerHTML=1+"mm lygu"+x/1000+"m";    // Change the content
+                cm=document.getElementsByClassName("cm")[0];  // Find the element
+                cm.innerHTML=1+"cm lygu "+x/100+"m";    // Change the content
+
+            }
+    </script>
+</body>
+</html>

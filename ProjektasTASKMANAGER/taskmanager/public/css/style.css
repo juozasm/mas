@@ -1,0 +1,51 @@
+
+.container{
+    padding: 50px 0;
+}
+.sidebar{
+	position: fixed;
+}
+.sidebar .horizontal a{
+	color: #007bff;
+}
+.sidebar .horizontal a:hover{
+	font-weight: 800;
+	text-decoration: none;
+}
+.sidebar .horizontal .active a{
+	color: white;
+}
+.sidebar .horizontal a:hover{
+	font-weight: 800;
+	text-decoration: none;
+}
+
+
+.login{
+	padding: 50px 0;
+}
+.form-control{
+	margin: 10px 0;
+}
+
+
+.bigPhoto{
+    height: 500px;
+    background-color: red;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 50px 0;
+}
+.bigPhoto h1{
+    text-align: center;
+    line-height: 500px;
+    margin: 0px auto;
+    color: #FFF;
+    font-size: 7em;
+}
+
+.country.container{
+    padding-top: 0px;
+}

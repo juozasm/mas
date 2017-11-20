@@ -1,0 +1,14 @@
+C:\xampp\htdocs\ProjektasTASKMANAGER\taskmanager>	
+
+recources/views/ peigai frontendo
+routes/web.php / url aprasymai
+app/http/controllers / controlleriai kurie yra.
+
+
+duomenu baze paprojektuoti, tinklapi parojektuoti
+
+php artisan make:model Statistic -m
+php artisan make:controller statisticController --resource --model Statistic 
+php artisan migrate
+opcache
+php artisan route:list

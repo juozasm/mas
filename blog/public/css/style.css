@@ -1,0 +1,27 @@
+.container{
+    padding: 50px 0;
+}
+
+#formLogin{
+    padding: 20px;
+}
+
+.bigPhoto{
+    height: 500px;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 50px 0;
+}
+.bigPhoto h1{
+    text-align: center;
+    line-height: 500px;
+    margin: 0px auto;
+    color: #FFF;
+    font-size: 7em;
+}
+
+.country.container{
+    padding-top: 0px;
+}

@@ -9,10 +9,14 @@
         <CLASSES>
           <root url="phar://$MODULE_DIR$/ProjektasTASKMANAGER/taskmanager/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
           <root url="phar://$MODULE_DIR$/ProjektasTASKMANAGER/taskmanager/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
+          <root url="phar://$MODULE_DIR$/blog/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
+          <root url="phar://$MODULE_DIR$/blog/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/ProjektasTASKMANAGER/taskmanager/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
           <root url="phar://$MODULE_DIR$/ProjektasTASKMANAGER/taskmanager/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
+          <root url="phar://$MODULE_DIR$/blog/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.1.phar/" />
+          <root url="phar://$MODULE_DIR$/blog/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
         </SOURCES>
       </library>
     </orderEntry>

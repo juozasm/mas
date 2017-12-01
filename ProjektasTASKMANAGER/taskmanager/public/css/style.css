@@ -1,28 +1,18 @@
 
-.container{
-    padding: 50px 0;
-}
-.sidebar{
-	position: fixed;
-}
-.sidebar .horizontal a{
-	color: #007bff;
-}
-.sidebar .horizontal a:hover{
-	font-weight: 800;
-	text-decoration: none;
-}
-.sidebar .horizontal .active a{
-	color: white;
-}
-.sidebar .horizontal a:hover{
-	font-weight: 800;
-	text-decoration: none;
+.container-fluid{
+    padding: 20px 0px;
+    width: 90%;
 }
 
+.navbar-brand li{
+    list-style-type: none;
+}
+.navbar-brand  li  a{
+    color: white;
+}
+.navbar-brand  li  ul  li  a{
+    color: blue;
 
-.login{
-	padding: 50px 0;
 }
 .form-control{
 	margin: 10px 0;
@@ -48,4 +38,26 @@
 
 .country.container{
     padding-top: 0px;
+}
+
+#row_selector {
+    border-collapse: collapse;
+}
+#row_selector tr {
+    background-color: #eee;
+    border-top: 1px solid #fff;
+}
+#row_selector tr:hover {
+    background-color: #ccc;
+}
+#row_selector th {
+    background-color: #fff;
+}
+#row_selector th, #row_selector td {
+    padding: 3px 5px;
+}
+#row_selector td:hover {
+    cursor: pointer;
+}#row_selector a:hover {
+    text-decoration: none;
 }

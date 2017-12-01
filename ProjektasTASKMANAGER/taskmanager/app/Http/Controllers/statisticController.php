@@ -5,7 +5,8 @@ namespace TaskManager\Http\Controllers; //includina package folderi kur zaisi.
 use TaskManager\Statistic; /// includina clase
 use Illuminate\Http\Request; // includina clase
 
-class statisticController extends Controller
+
+class StatisticController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +15,9 @@ class statisticController extends Controller
      */
     public function index()
     {
-        return "hello";
+        $data['Statistics'] = Statistic::all();
+
+        return view('Statistic', $data);
     }
 
     /**
@@ -24,7 +27,7 @@ class statisticController extends Controller
      */
     public function create()
     {
-        //
+        return view('Statistic_create');
     }
 
     /**
@@ -33,54 +36,69 @@ class statisticController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request) // post and get method yra request viename
     {
-        //
+        $Statistic = new Statistic(); // skliustelius riekia kuriant objekta
+
+        $Statistic->title = $request->title;
+        $Statistic->count = $request->count;
+
+        $Statistic->save();
+
+        return redirect()->route('Statistic.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \TaskManager\Statistic  $statistic
+     * @param  \Taskmanager\Statistic  $Statistic
      * @return \Illuminate\Http\Response
      */
     public function show(Statistic $Statistic)
     {
-        return $Statistic;
+        $data['Statistic'] = $Statistic;
 
+        return view('Statistic_show', $data);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \TaskManager\Statistic  $statistic
+     * @param  \Taskmanager\Statistic  $Statistic
      * @return \Illuminate\Http\Response
      */
     public function edit(Statistic $Statistic)
     {
-        //
+        $data['Statistic'] = $Statistic;
+
+        return view('Statistic_edit', $data);
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \TaskManager\Statistic  $statistic
+     * @param  \Taskmanager\Statistic  $Statistic
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Statistic $Statistic)
     {
-        //
+        $Statistic->title = $request->title;
+        $Statistic->count = $request->count;
+        $Statistic->save();
+
+        return redirect()->route('Statistic.index');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \TaskManager\Statistic  $statistic
+     * @param  \Taskmanager\Statistic  $Statistic
      * @return \Illuminate\Http\Response
      */
     public function destroy(Statistic $Statistic)
     {
-        //
+        $Statistic->delete();
+        return redirect()->route('Statistic.index');
     }
 }

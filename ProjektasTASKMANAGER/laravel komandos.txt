@@ -7,8 +7,24 @@ app/http/controllers / controlleriai kurie yra.
 
 duomenu baze paprojektuoti, tinklapi parojektuoti
 
-php artisan make:model Statistic -m
-php artisan make:controller statisticController --resource --model Statistic 
+php artisan make:model Driver -m
+php artisan make:controller DriverController --resource --model Driver
 php artisan migrate
 opcache
 php artisan route:list
+php artisan route:clear
+
+config atskiras
+
+
+SELECT orders.*, clients.*, statuses.*
+FROM orders
+LEFT JOIN clients ON
+orders.client_id = clients.id
+LEFT JOIN statuses ON
+orders.status_id = statuses.id
+
+php artisan make:migration telephone --table=transports
+php artisan vendor:publish --tag=laravel-pagination
+queues paskaityti
+cache ismokti

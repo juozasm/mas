@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Lithuania extends Model
 {
-    //
+    public $timestamps = false;
 }

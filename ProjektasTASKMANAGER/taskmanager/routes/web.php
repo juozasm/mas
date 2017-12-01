@@ -10,16 +10,22 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'mainController@main');
-Route::get('/orders', 'ordersController@orders');
-Route::get('/transport', 'transportController@transport');
-Route::get('/tasks', 'tasksController@tasks');
-Route::get('/config', 'configController@config');
-Route::get('/about', 'mainController@about')->name('about');
 
-Route::resource('Statistic','statisticController');
-Route::resource('Lithuania','lithuaniaController');
+Route::resource('/orders','OrdersController');
+Route::get('/orders/archive/{id}/{home}','OrdersController@archive');
+Route::resource('/transport', 'TransportController');
+Route::resource('/tasks', 'TasksController');
+Route::resource('/config', 'ConfigController');
+Route::resource('/clients', 'ClientsController');
+Route::get('/about', 'HomeController@about')->name('about');
+
+Route::resource('/Statistic','statisticController');
+Route::resource('/Lithuania','lithuaniaController');
 
 // Countries
 
 Route::get('/country/{slug}', 'countryController@getCountry');
+Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/test', 'HomeController@test')->name('test');

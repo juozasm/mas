@@ -2,24 +2,84 @@
 
 namespace TaskManager\Http\Controllers;
 
+use TaskManager\Transport;
 use Illuminate\Http\Request;
 
-class transportController extends mainController
+class TransportController extends Controller
 {
-    public function transport(){
-        $data=$this->content();
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        //
+    }
 
-        $filterData=array(
-            'transport'=>$data['transport'],
-            'active'=>array(
-                'main'=>'',
-                'orders'=>'',
-                'transport'=>'active',
-                'tasks'=>'',
-                'config'=>''
-            )
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
 
-        );
-        return view('transport',$filterData);
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \TaskManager\Transport  $transport
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Transport $transport)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \TaskManager\Transport  $transport
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(Transport $transport)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \TaskManager\Transport  $transport
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, Transport $transport)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \TaskManager\Transport  $transport
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(Transport $transport)
+    {
+        //
     }
 }

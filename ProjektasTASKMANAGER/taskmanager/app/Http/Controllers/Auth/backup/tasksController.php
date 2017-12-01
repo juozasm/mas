@@ -4,22 +4,22 @@ namespace TaskManager\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ordersController extends mainController
+class tasksController extends mainController
 {
-    public function orders(){
+    public function tasks(){
         $data=$this->content();
 
         $filterData=array(
-            'orders'=>$data['orders'],
+            'tasks'=>$data['tasks'],
             'active'=>array(
                 'main'=>'',
-                'orders'=>'active',
+                'orders'=>'',
                 'transport'=>'',
-                'tasks'=>'',
+                'tasks'=>'active',
                 'config'=>''
             )
 
         );
-        return view('orders',$filterData);
+        return view('tasks',$filterData);
     }
 }
